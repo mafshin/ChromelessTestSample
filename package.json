@@ -11,6 +11,7 @@
         "node": "0.6.x"
     },
     "scripts": {
-        "test": "mocha --reporter mochawesome --timeout 20000"
+        "test": "mocha --reporter mochawesome --timeout 20000",
+        "debug": "mocha --inspector -debug-brk=5868 --timeout 20000"
     }
 }
